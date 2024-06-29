@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "630030786000",
+    "project_id": "reciipiie-a29cd",
+    "storage_bucket": "reciipiie-a29cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630030786000:android:4d2a3866341cfca2236dd5",
+        "android_client_info": {
+          "package_name": "com.example.reciipiie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630030786000-e16jvclcm2tcp5sjjergus3uphc4m5qe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.reciipiie",
+            "certificate_hash": "a2f9e2bc31ba4def6517c3bc1170fb2506c940b3"
+          }
+        },
+        {
+          "client_id": "630030786000-43o8jliep0ajd69a39c8fsrp5190g47n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCouKFodESQxq6H0KH8fsjHvDA_0-pp-DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630030786000-43o8jliep0ajd69a39c8fsrp5190g47n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

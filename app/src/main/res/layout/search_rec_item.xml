@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/recipe_item_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/food_icon"
+        android:gravity="center_vertical"
+        android:drawablePadding="10dp"
+        android:textColor="@color/text_color"
+        android:text="HI"/>
+
+</LinearLayout>

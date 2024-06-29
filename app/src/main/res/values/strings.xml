@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Reciipiie</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">630030786000-e16jvclcm2tcp5sjjergus3uphc4m5qe.apps.googleusercontent.com</string>
+</resources>

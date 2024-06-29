@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="12dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        >
+
+        <ImageView
+            android:id="@+id/recipe_item_image_view"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="centerCrop"
+            />
+        <View
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/rounded_corner_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:orientation="vertical"
+            android:layout_margin="3dp"
+            android:padding="5dp">
+
+        <TextView
+            android:id="@+id/recipe_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:maxWidth="90dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Recipe name"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/recipe_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#C6C2C2"
+            tools:text="Ready in 25 min" />
+    </LinearLayout>
+</FrameLayout>
+
+    </RelativeLayout>

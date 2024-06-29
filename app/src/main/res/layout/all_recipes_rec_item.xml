@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/all_recipe_rounded_corner_image_view"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/recipe_item_image_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/left_sided_rounded_corner_image_view"
+                />
+
+            <LinearLayout
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_recipe_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:textSize="22sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="@color/text_color"
+                    android:text="Recipe name"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/item_recipe_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_color"
+                    android:text="Ready in 25 min" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
